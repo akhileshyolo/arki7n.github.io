@@ -1,0 +1,79 @@
+layout: sidebar
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    forks: true
+    projects:
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+   facebook: arki7n
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+   linkedin: arki7n
+   medium: akhileshyadav
+  # stackoverflow: your_user_id
+   telegram: arki7n
+   twitter: arki7n
+  # unsplash: your_username
+  # vk: your_username
+   website: https://ayzom.com
+  # youtube: your_username
+
+topics:
+  - name: Javascript
+    image_url: https://ayzom.com/img/js.png
+
+  - name: ReactJS
+    image_url: https://ayzom.com/img/react.png
+
+  - name: AngularJs
+    image_url: https://banner2.kisspng.com/20180420/sxw/kisspng-angularjs-ruby-on-rails-typescript-web-application-icon-hacker-5ad97b80139367.5630065415242023680802.jpg
+
+  - name: Node.js
+    image_url: https://ayzom.com/img/node.png
+
+  - name: PHP
+    image_url: https://ayzom.com/img/php.png
+
+  - name: Laravel
+    image_url: https://ayzom.com/img/laravel.png
+
+  - name: Command Line
+    image_url: https://ayzom.com/img/terminal.png
+
+  - name: Git
+    image_url: https://ayzom.com/img/git.png
+
+  - name: AWS
+    image_url: https://ayzom.com/img/aws.png
+
+  - name: Redis
+    image_url: https://ayzom.com/img/redis.png
+
+  - name: Linux
+    image_url: https://ayzom.com/img/linux.png
